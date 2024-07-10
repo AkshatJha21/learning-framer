@@ -1,10 +1,11 @@
 import './App.css'
+import BasicMotion from './components/BasicMotion'
 
 function App() {
 
   return (
     <div>
-      Let's Learn Framer Motion
+      <BasicMotion />
     </div>
   )
 }
