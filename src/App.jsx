@@ -2,6 +2,7 @@ import './App.css'
 import AnimationControls from './components/AnimationControls'
 import BasicMotion from './components/BasicMotion'
 import Gestures from './components/Gestures'
+import ScrollAnimations from './components/ScrollAnimations'
 import ViewBasedAnimations from './components/ViewBasedAnimations'
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       {/* <BasicMotion /> */}
       {/* <Gestures /> */}
       {/* <AnimationControls /> */}
-      <ViewBasedAnimations />
+      {/* <ViewBasedAnimations /> */}
+      <ScrollAnimations />
     </div>
   )
 }
