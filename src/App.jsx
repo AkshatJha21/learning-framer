@@ -3,6 +3,7 @@ import AnimationControls from './components/AnimationControls'
 import BasicMotion from './components/BasicMotion'
 import Gestures from './components/Gestures'
 import ScrollAnimations from './components/ScrollAnimations'
+import { TextParallax } from './components/TextParallax'
 import ViewBasedAnimations from './components/ViewBasedAnimations'
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       {/* <Gestures /> */}
       {/* <AnimationControls /> */}
       {/* <ViewBasedAnimations /> */}
-      <ScrollAnimations />
+      {/* <ScrollAnimations /> */}
+      <TextParallax />
     </div>
   )
 }
