@@ -103,7 +103,7 @@ const ExampleContent = () => (
           reiciendis blanditiis aliquam aut fugit sint.
         </p>
         <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
-          Learn more
+          Learn more...
         </button>
       </div>
     </div>
