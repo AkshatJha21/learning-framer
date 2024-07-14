@@ -3,19 +3,23 @@ import AnimationControls from './components/AnimationControls'
 import BasicMotion from './components/BasicMotion'
 import Gestures from './components/Gestures'
 import ScrollAnimations from './components/ScrollAnimations'
+import StickyCards from './components/StickyCards'
 import { TextParallax } from './components/TextParallax'
 import ViewBasedAnimations from './components/ViewBasedAnimations'
-
+import { products } from './products'
 function App() {
 
   return (
-    <div>
+    <div className='mt-[50vh]'>
       {/* <BasicMotion /> */}
       {/* <Gestures /> */}
       {/* <AnimationControls /> */}
       {/* <ViewBasedAnimations /> */}
       {/* <ScrollAnimations /> */}
-      <TextParallax />
+      {/* <TextParallax /> */}
+      {products.map((product, index) => {
+        return <StickyCards key={index} {...product}/>
+      })}
     </div>
   )
 }
